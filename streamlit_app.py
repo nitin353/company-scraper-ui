@@ -28,4 +28,4 @@ if st.button("Start Scraping"):
             st.download_button("⬇️ Download JSON", json_data, file_name="companies.json", mime="application/json")
             st.download_button("⬇️ Download CSV", csv_data, file_name="companies.csv", mime="text/csv")
         else:
-           ## st.warning("No results found or failed to scrape.")
+            st.warning("No results found or failed to scrape.")
